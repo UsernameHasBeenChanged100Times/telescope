@@ -36,8 +36,6 @@ function Login({ style }) {
         const userInfo = await response.json();
         if (userInfo && userInfo.email && userInfo.name) {
           dispatch({ type: 'LOGIN_USER', payload: userInfo });
-          loadFast();
-          loadFaster();
         }
       } catch (error) {
         console.error('Error getting user info', error);
