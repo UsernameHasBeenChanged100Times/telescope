@@ -5,7 +5,6 @@ import { Fab, Grid, Typography } from '@material-ui/core';
 import useSiteMetadata from '../hooks/use-site-metadata';
 import BannerDynamicItems from './BannerDynamicItems';
 import ScrollAction from './ScrollAction';
-
 const useStyles = makeStyles((theme) => ({
   h1: {
     position: 'absolute',
