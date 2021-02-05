@@ -31,7 +31,7 @@ const App = ({ Component, pageProps }: AppProps) => {
   return (
     <ThemeProvider theme={theme}>
       <UserProvider>
-        <Header />
+        {/* <Header /> */}
         <Component {...pageProps} theme={theme} toggleTheme={toggleTheme} />
       </UserProvider>
     </ThemeProvider>
